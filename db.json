@@ -1,0 +1,339 @@
+{
+  "rekruter": [
+    {
+      "name": "Yabes Elkana Zega",
+      "jobdesk": "Web Developer",
+      "address": "Cempaka Putuh, Jakarta ",
+      "work": "Employ",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi odit expedita blanditiis delectus, corrupti atque optio in sed impedit!",
+      "id_rekruter": "b9abb7e6-b4ee-465c-8457-ebc27e366e8b",
+      "id": 1
+    },
+    {
+      "name": "Hendra",
+      "jobdesk": "Tukang Sapu",
+      "address": "Cempaka Tengah, Jakarta ",
+      "work": "Employ",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sed reiciendis ullam.",
+      "id_rekruter": "b5ce451e-3938-4156-b5a3-4a6e58cbd396",
+      "id": 2
+    },
+    {
+      "name": "Anggi Setiawan",
+      "jobdesk": "Web Developer",
+      "address": "Tebet Jakarta Pusat",
+      "work": "Employ",
+      "description": "Hidup Menyengkan",
+      "id_rekruter": "ef8e2df0-7676-4393-96ca-b9a29fb6b9e4",
+      "id": 3
+    },
+    {
+      "name": "Wahyu Ramadan",
+      "jobdesk": "Web Developer",
+      "address": "Medan",
+      "work": "Employ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestiae possimus adipisci.",
+      "id_rekruter": "591ca926-0d52-407e-a55a-6bc580268892",
+      "id": 4
+    },
+    {
+      "name": "Awe",
+      "jobdesk": "Web Developer",
+      "address": "Medan",
+      "work": "Employ",
+      "description": "coba",
+      "id_rekruter": "d1c6b57e-2995-4ff0-b161-ed9558d4ed3d",
+      "id": 5
+    }
+  ],
+  "Register": [
+    {
+      "id": 1,
+      "name": "Yabes",
+      "email": "yabes@gmail.com",
+      "noHp": "081245672890",
+      "password": "yabes123",
+      "comfirmpassword": "yabes123",
+      "role": "rekruter"
+    },
+    {
+      "name": "elkana",
+      "email": "zega@gmail.com",
+      "phone": "21312312",
+      "password": "zega123",
+      "role": "rekruter",
+      "id": 2
+    },
+    {
+      "name": "lukman",
+      "email": "lukman@gmail.com",
+      "phone": "08123234324",
+      "password": "lukman123",
+      "role": "rekruter",
+      "id": 3
+    }
+  ],
+  "Login": [
+    {
+      "email": "zega@gmail.com",
+      "password": "zega123",
+      "id": 1
+    },
+    {
+      "email": "adi@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "email": "surya@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "email": "surya@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "email": "surya@gmail.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "email": "surya@gmail.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "email": "yabes@gmail.com",
+      "password": "123",
+      "id": 8
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "email": "yabes@gmail.com",
+      "password": "123",
+      "id": 10
+    },
+    {
+      "email": "yabes@gmail.com",
+      "password": "123",
+      "id": 11
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 12
+    },
+    {
+      "email": "yabeszega1997@gmail.com",
+      "password": "123",
+      "id": 13
+    }
+  ],
+  "skills": [
+    {
+      "skill": "Javascript",
+      "id_rekruter": 1,
+      "id": 1
+    },
+    {
+      "id_rekruter": "1",
+      "skill": "PHP",
+      "id": 2
+    },
+    {
+      "skill": "Css",
+      "id_rekruter": "1",
+      "id": 3
+    },
+    {
+      "skill": "HTML5",
+      "id": 4
+    },
+    {
+      "skill": "C++",
+      "id_rekruter": "b9abb7e6-b4ee-465c-8457-ebc27e366e8b",
+      "id": 5
+    },
+    {
+      "skill": "CSS",
+      "id_rekruter": "b9abb7e6-b4ee-465c-8457-ebc27e366e8b",
+      "id": 6
+    },
+    {
+      "skill": "Java",
+      "id_rekruter": "b5ce451e-3938-4156-b5a3-4a6e58cbd396",
+      "id": 7
+    },
+    {
+      "skill": "HTML",
+      "id_rekruter": "b5ce451e-3938-4156-b5a3-4a6e58cbd396",
+      "id": 8
+    },
+    {
+      "skill": "Css",
+      "id_rekruter": "b5ce451e-3938-4156-b5a3-4a6e58cbd396",
+      "id": 9
+    },
+    {
+      "skill": "HTML",
+      "id_rekruter": "ef8e2df0-7676-4393-96ca-b9a29fb6b9e4",
+      "id": 10
+    },
+    {
+      "skill": "JavaScript",
+      "id_rekruter": "ef8e2df0-7676-4393-96ca-b9a29fb6b9e4",
+      "id": 11
+    },
+    {
+      "skill": "Java",
+      "id_rekruter": "591ca926-0d52-407e-a55a-6bc580268892",
+      "id": 12
+    },
+    {
+      "skill": "Html",
+      "id_rekruter": "591ca926-0d52-407e-a55a-6bc580268892",
+      "id": 13
+    },
+    {
+      "skill": "java",
+      "id_rekruter": "d1c6b57e-2995-4ff0-b161-ed9558d4ed3d",
+      "id": 14
+    }
+  ],
+  "portfolio": [
+    {
+      "name_portfolio": "Akulaku",
+      "repo_link": "link",
+      "id_rekruter": "b9abb7e6-b4ee-465c-8457-ebc27e366e8b",
+      "type_portfolio": "Aplikasi Mobile",
+      "id": 1
+    },
+    {
+      "name_portfolio": "Belanja.com",
+      "repo_link": "links",
+      "id_rekruter": "b5ce451e-3938-4156-b5a3-4a6e58cbd396",
+      "type_portfolio": "Web Browser",
+      "id": 2
+    },
+    {
+      "name_portfolio": "Treveling.com",
+      "repo_link": "link",
+      "id_rekruter": "ef8e2df0-7676-4393-96ca-b9a29fb6b9e4",
+      "type_portfolio": "Web Browser",
+      "id": 3
+    },
+    {
+      "name_portfolio": "Parkir.com",
+      "repo_link": "Link",
+      "id_rekruter": "ef8e2df0-7676-4393-96ca-b9a29fb6b9e4",
+      "type_portfolio": "Web Browser",
+      "id": 4
+    },
+    {
+      "name_portfolio": "Agoda",
+      "repo_link": "Linkcoba",
+      "id_rekruter": "591ca926-0d52-407e-a55a-6bc580268892",
+      "type_portfolio": "Web Browser",
+      "id": 5
+    },
+    {
+      "name_portfolio": "Agoda",
+      "repo_link": "links",
+      "id_rekruter": "d1c6b57e-2995-4ff0-b161-ed9558d4ed3d",
+      "type_portfolio": "Aplikasi Mobile",
+      "id": 6
+    }
+  ],
+  "experience": [
+    {
+      "jobdesk": "Enginer",
+      "company_name": "Buka Lapak",
+      "date_start": "Maret 2016",
+      "date_end": "Januari 2021",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam ducimus vel quia aliquid alias!",
+      "id_rekruter": "1",
+      "id": 2
+    },
+    {
+      "jobdesk": "CEO",
+      "company_name": "Mayora",
+      "date_start": "Januari 2018",
+      "date_end": "Januari 2020",
+      "description": "Melakukan banyak hal ",
+      "id_rekruter": "b9abb7e6-b4ee-465c-8457-ebc27e366e8b",
+      "id": 3
+    },
+    {
+      "jobdesk": "Web Developer",
+      "company_name": "Kaskus",
+      "date_start": "Januari 2018",
+      "date_end": "Maret 2019",
+      "description": "Pekerjaan yang menyenagkan",
+      "id": 4
+    },
+    {
+      "jobdesk": "Web Developer",
+      "company_name": "Buka Lapak",
+      "date_start": "Januari 2020",
+      "date_end": "April 2019",
+      "description": "Menyengkan",
+      "id": 5
+    },
+    {
+      "jobdesk": "Web Developer",
+      "company_name": "Hatari",
+      "date_start": "Januari 2020",
+      "date_end": "Januari 2023",
+      "description": "Coba",
+      "id_rekruter": "b5ce451e-3938-4156-b5a3-4a6e58cbd396",
+      "id": 6
+    },
+    {
+      "jobdesk": "Enginer",
+      "company_name": "Kaskus",
+      "date_start": "Maret 2016",
+      "date_end": "Januari 2020",
+      "description": "coba2",
+      "id_rekruter": "b5ce451e-3938-4156-b5a3-4a6e58cbd396",
+      "id": 7
+    },
+    {
+      "jobdesk": "Enginer",
+      "company_name": "Hatari",
+      "date_start": "Januari 2018",
+      "date_end": "November 2023",
+      "description": "Coba 1",
+      "id_rekruter": "ef8e2df0-7676-4393-96ca-b9a29fb6b9e4",
+      "id": 8
+    },
+    {
+      "jobdesk": "Web Developer",
+      "company_name": "Kaskus",
+      "date_start": "Januari 2018",
+      "date_end": "April 2019",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestiae possimus adipisci.",
+      "id_rekruter": "591ca926-0d52-407e-a55a-6bc580268892",
+      "id": 9
+    },
+    {
+      "jobdesk": "Web Developer",
+      "company_name": "Mayora",
+      "date_start": "Januari 2018",
+      "date_end": "Aplir 2022",
+      "description": "coba",
+      "id_rekruter": "d1c6b57e-2995-4ff0-b161-ed9558d4ed3d",
+      "id": 10
+    }
+  ]
+}

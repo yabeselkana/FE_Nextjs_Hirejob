@@ -1,0 +1,59 @@
+.btn1:hover {
+  background-color: transparent !important;
+  border: 1px solid #5e50a1;
+  color: #5e50a1 !important;
+}
+.btn1 {
+  background-color: #5e50a1 !important;
+  color: white !important;
+  border: 1px solid #5e50a1 !important;
+}
+
+.navbarToggler {
+  border: none !important;
+}
+.navbarToggler:focus,
+.navbarToggler-icon:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+.navbarToggler:active {
+  box-shadow: 16px 12px 39px -12px rgba(6, 6, 50.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  border: none !important;
+  background: none !important;
+  color: gray;
+  font-size: 17px;
+}
+.notif {
+  border: none !important;
+  background: none !important;
+  color: gray;
+  font-size: 17px;
+}
+
+.profile {
+  width: 35px;
+  height: 35px;
+}
+.img {
+  border: 1px solid blueviolet;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+.img:hover {
+  transform: scale(1.08);
+}
+
+.dropdown-toggle-split {
+  border: none !important;
+  background: none;
+}
+.drop li a:active {
+  background-color: #e0e0e0 !important;
+}

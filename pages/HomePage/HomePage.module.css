@@ -1,0 +1,140 @@
+.strapBrand {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  background-color: #5e50a1;
+}
+.strapBrand p {
+  line-height: 60px;
+  text-align: start;
+  font-weight: bolder;
+  font-size: 1.2em;
+  color: white;
+}
+
+/* Form Search */
+.searching form {
+  position: relative;
+  height: 50px;
+}
+.searching input {
+  position: absolute;
+  height: 100%;
+  padding-right: 140px;
+}
+.btnSearch {
+  font-size: 14px;
+  padding: 0 30px 0 30px !important;
+  color: white !important;
+  background-color: #5e50a1;
+  border: 1px solid transparent !important;
+  position: absolute;
+  right: -50px;
+  height: 80%;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%) !important;
+}
+.btnSearch:hover {
+  background-color: white !important;
+  color: #5e50a1 !important;
+  border: 1px solid #5e50a1 !important;
+}
+.Drop {
+  background-color: transparent !important;
+  z-index: 1200;
+  padding: 0 20px 0 20px !important;
+  border: 1px solid transparent !important;
+  position: absolute;
+  height: 80%;
+  right: 70px;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%) !important;
+}
+.btnDrop {
+  border: none !important;
+  background-color: transparent !important;
+}
+.garisVertical {
+  border: 1px solid rgb(186, 186, 186);
+  position: absolute;
+  right: 240px;
+  height: 80%;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%) !important;
+}
+
+/* Section Tag */
+.listSkills {
+  overflow-x: scroll;
+  cursor: grab;
+}
+.listSkills::-webkit-scrollbar {
+  display: none;
+}
+.listSkills p {
+  font-size: 12px !important;
+  background-color: rgba(251, 176, 23, 1);
+  color: white !important;
+  font-weight: 400 !important;
+  border: 1px solid rgba(251, 176, 23, 1);
+}
+.listSkills p:active {
+  background-color: rgb(255, 170, 0) !important;
+}
+
+.seeProfil {
+  background-color: #5e50a1 !important;
+  color: white !important;
+}
+.seeProfil:hover {
+  background-color: transparent !important;
+  border: 1px solid #5e50a1 !important;
+  color: #5e50a1 !important;
+}
+
+.see {
+  /* background-color: lightskyblue; */
+  display: flex;
+}
+
+.body span,
+.body p {
+  color: grey;
+  font-size: 14px;
+}
+
+/* Pagination */
+
+.pagination li {
+  width: 60px;
+  height: auto !important;
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.pagination button {
+  width: 40px;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.pagination button.active {
+  font-weight: 900;
+  border-color: black;
+  background-color: green;
+  color: white;
+}

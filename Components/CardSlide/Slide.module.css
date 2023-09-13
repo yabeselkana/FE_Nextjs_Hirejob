@@ -1,0 +1,36 @@
+.card {
+  width: 100%;
+  /* height: 300px; */
+  background-color: white;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.cardImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 10px auto 20px;
+  border: 7px solid #ffd37bf1;
+}
+
+.cardTitle span {
+  color: gray;
+  font-size: 15px;
+}
+.cardContent p {
+  font-size: 16px;
+}
+.cardContent {
+  height: 100px;
+  cursor: grabbing;
+  overflow-y: scroll !important;
+}
+.cardContent::-webkit-scrollbar {
+  display: none;
+}
+
+.card::-webkit-scrollbar {
+  display: none;
+}

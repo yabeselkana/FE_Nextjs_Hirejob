@@ -1,0 +1,15 @@
+.inputPhoto {
+  height: 320px;
+  cursor: pointer;
+}
+.inputTextArea {
+  height: 150px;
+}
+
+.addVideo {
+  cursor: pointer;
+}
+
+.inputForm {
+  height: 50px;
+}

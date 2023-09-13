@@ -1,0 +1,132 @@
+/* Auth COntainer */
+.authContainer {
+  /* background-color: beige; */
+  height: 100% !important;
+  min-height: 100vh;
+}
+
+/* SideLeft */
+
+.sideLeft {
+  background-image: linear-gradient(to top, rgba(71, 61, 122, 0.82), rgba(94, 80, 161, 0.89)), url("../../Assets/img/auth/imgSection.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+  height: 100vh;
+}
+
+.sideRight {
+  /* background-color: lightgrey; */
+  overflow-y: scroll;
+  padding-top: 50px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sideRight::-webkit-scrollbar {
+  display: flex;
+}
+
+/* .sideLeft Image {
+} */
+
+.sideLeft p {
+  font-size: 40px;
+  padding: 160px;
+  color: white;
+  font-weight: 700;
+}
+
+/* SideRigth */
+.sideRight header h3 {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+.sideRight header p {
+  color: rgb(135, 135, 135);
+  font-weight: lighter;
+}
+
+/* FontAwesome */
+.Banner {
+  display: flex;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  color: white !important;
+}
+.FontAwesome {
+  padding: 0 10px 10px 0;
+  font-size: 30px;
+}
+
+.Banner span {
+  margin-top: -2px;
+}
+
+/* Custom Checkbox */
+
+#flexCheckDefault:checked {
+  background-color: rgb(70, 89, 143) !important;
+  border: white !important;
+  box-shadow: 0.5px 1px 10px 1px rgb(255, 255, 255) !important;
+}
+
+#flexCheckDefault {
+  background-color: silver !important;
+  border: grey !important;
+  box-shadow: 0.5px 1px 10px 1px rgb(255, 255, 255) !important;
+}
+
+/* Input */
+.formLabel {
+  color: grey;
+  font-size: 14px;
+}
+
+.formControl {
+  height: 50px;
+}
+
+.formControl:active,
+.formControl:hover,
+.formControl:focus {
+  border-color: rgb(72, 80, 164) !important;
+  box-shadow: 0.5px 1px 10px 0.5px rgb(213, 213, 213) !important;
+}
+.controlStyle input::-webkit-outer-spin-button,
+.controlStyle input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.controlStyle input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.formControl::placeholder {
+  color: rgb(191, 191, 191) !important;
+  font-size: 13px !important;
+  padding-left: 10px;
+}
+
+/* Button */
+.btn {
+  background-color: #fbb017;
+  height: 45px;
+  width: 100%;
+}
+.btn:hover {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(88, 85, 173) !important;
+  color: black !important;
+}
+.btn:active {
+  color: black !important;
+}

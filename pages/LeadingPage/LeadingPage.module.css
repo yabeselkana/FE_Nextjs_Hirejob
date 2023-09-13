@@ -1,0 +1,165 @@
+.sectionOne {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.imgWrapper {
+  justify-content: space-between;
+  position: relative;
+  margin-top: 100px;
+  width: 400px;
+  height: 400px;
+}
+.imgSection {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box1 {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background-color: rgb(220, 220, 220);
+  transform: rotate(-20deg);
+}
+
+.imgWrapper::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+  background-color: #5e50a1;
+  left: -40px;
+  bottom: -30px;
+}
+.imgWrapper::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  background-color: #fbb017;
+  left: 30px;
+  bottom: -50px;
+}
+
+.btn {
+  background-color: #5e50a1;
+  color: #fff;
+}
+
+.sectionTwo {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.imgWrapper2 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.imgSection2 {
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.box2 {
+  z-index: -1;
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background-color: rgb(220, 220, 220);
+  transform: rotate(10deg);
+}
+.imgWrapper2::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+  background-color: #5e50a1;
+  top: -40px;
+  left: -40px;
+}
+
+.imgWrapper3 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.imgSection3 {
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.box3 {
+  z-index: -1;
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background-color: rgb(220, 220, 220);
+  transform: rotate(-10deg);
+}
+.imgWrapper3::before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  z-index: 2;
+  background-color: #fbb017;
+  top: -40px;
+  right: -40px;
+}
+
+.sectionFive {
+  background-color: white;
+  height: 400px;
+}
+
+.box {
+  background-color: #5e50a1;
+  width: 100%;
+  height: 200px;
+  border-radius: 50px 10px 50px 10px;
+}
+
+@media screen and (max-width: 428px) {
+  .sectionOne h2 {
+    font-size: 30px;
+    text-align: left;
+  }
+
+  .box1 {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(220, 220, 220);
+    transform: rotate(-20deg);
+  }
+  .sectionTwo h2 {
+    font-size: 30px;
+  }
+  .sectionThree h1 {
+    font-size: 30px;
+  }
+  .sectionFour h2 {
+    font-size: 30px;
+  }
+  .imgSection3 {
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .imgWrapper3::before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    z-index: 2;
+    background-color: #fbb017;
+    top: -20px;
+    right: -10px;
+  }
+}

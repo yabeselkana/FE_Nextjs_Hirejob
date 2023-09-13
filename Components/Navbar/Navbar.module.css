@@ -1,0 +1,24 @@
+/* .btn1:hover {
+  background-color: transparent !important;
+  border: 1px solid #5e50a1;
+  color: #5e50a1 !important;
+} */
+.btn1 {
+  background-color: #5e50a1 !important;
+  color: white !important;
+  border: 1px solid #5e50a1 !important;
+  margin-left: 20px;
+}
+
+.navbarToggler {
+  border: none !important;
+}
+.navbarToggler:focus,
+.navbarToggler-icon:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+.navbarToggler:active {
+  box-shadow: 16px 12px 39px -12px rgba(6, 6, 50.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
