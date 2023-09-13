@@ -4,9 +4,9 @@
 </div>
   <h3 align="center">Rekrut App</h3>
   <p align="center">
-    <a href="https://github.com/yabeselkana/FE_Hirejob.git"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/yabeselkana/FE_Nextjs_Hirejob.git"><strong>Explore the docs »</strong></a>
     <br />
-  <a href="https://fe-hirejob.vercel.app/">View Demo</a>
+  <a href="https://fe-nextjs-hirejob.vercel.app/">View Demo</a>
     ·
     <a href="https://be-hirejob.vercel.app/">Api Demo</a>
   </p>
@@ -156,8 +156,8 @@ Contributions are what make the open source community such an amazing place to b
 
 :rocket: [`Backend Hiring App`](https://github.com/yabeselkana/BE_hirejob.git)
 
-:rocket: [`Frontend Hiring App`](https://github.com/yabeselkana/FE_Hirejob.git)
+:rocket: [`Frontend Hiring App`](https://github.com/yabeselkana/FE_Nextjs_Hirejob.git)
 
-:rocket: [`Demo Hiring App`](https://fe-hirejob.vercel.app/)
+:rocket: [`Demo Hiring App`](https://fe-nextjs-hirejob.vercel.app/)
 
-Project link : [Rekrut Client](https://github.com/yabeselkana/FE_Hirejob.git)
+Project link : [Rekrut Client](https://github.com/yabeselkana/FE_Nextjs_Hirejob.git)
